@@ -11,7 +11,7 @@ I'm currently a Senior at Appalachian State University! I will be graduating in 
 Some of my courses that I've taken in my time at App State are; Managing Securities, Programming Software Solutions, Audit &
 Cybersecurity Analytics, Global IS Ethics & Privacy, Database Management & Network and IT Infrastructures. 
 
-Alongside my coursework I've completed a few certifications, I have completed the Google Cybersecurity Course [Credly Badge](https://www.credly.com/badges/50603db3-9582-46cb-bac2-510c478ca2e4/public_url]
+Alongside my coursework I've completed a few certifications, I have completed the Google Cybersecurity Course [Credly Badge](https://www.credly.com/badges/50603db3-9582-46cb-bac2-510c478ca2e4/public_url)
 
 I also competed in the Microsoft Security Immersion Challenge hosted on our campus by Microsoft! [Credly Badge](https://www.credly.com/badges/50603db3-9582-46cb-bac2-510c478ca2e4/public_url)
 
