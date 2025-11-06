@@ -15,7 +15,7 @@ Alongside my coursework I've completed a few certifications, I have completed th
 
 I also competed in the Microsoft Security Immersion Challenge hosted on our campus by Microsoft! [Credly Badge](https://www.credly.com/badges/50603db3-9582-46cb-bac2-510c478ca2e4/public_url)
 
-Finally I'm also in the process of completing the ISC2 CC Certification, with hopes to finish it sometime around Summer 2026. [https://www.credly.com/badges/0daf058e-c3ba-4cc9-b617-93e39b3c8e5c/public_url](url)
+Finally I'm also in the process of completing the ISC2 CC Certification, with hopes to finish it sometime around Summer 2026. [Credly Badge](https://www.credly.com/badges/0daf058e-c3ba-4cc9-b617-93e39b3c8e5c/public_url)
 
 
 ![image](https://github.com/Frank-Atwood/Cyber-Projects/blob/0f70ba106028024d55b45cd70807d195d66a1834/Screenshots/appcampus.jpg)
