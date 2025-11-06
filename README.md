@@ -13,7 +13,7 @@ Cybersecurity Analytics, Global IS Ethics & Privacy, Database Management & Netwo
 
 Alongside my coursework I've completed a few certifications, I have completed the Google Cybersecurity Course [https://www.credly.com/badges/361ec408-3042-47ac-ad08-a38dcceceff0/linked_in_profile](url)
 
-I also competed in the Microsoft Security Immersion Challenge hosted on our campus by Microsoft! [https://www.credly.com/badges/50603db3-9582-46cb-bac2-510c478ca2e4/linked_in_profile](url)
+I also competed in the Microsoft Security Immersion Challenge hosted on our campus by Microsoft! [(https://www.credly.com/badges/50603db3-9582-46cb-bac2-510c478ca2e4/public_url)](url)
 
 Finally I'm also in the process of completing the ISC2 CC Certification, with hopes to finish it sometime around Summer 2026. [https://www.credly.com/badges/0daf058e-c3ba-4cc9-b617-93e39b3c8e5c/public_url](url)
 
