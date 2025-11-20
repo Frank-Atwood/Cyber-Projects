@@ -22,6 +22,6 @@ Finally I'm also in the process of completing the ISC2 CC Certification, with ho
 
 
 ## How to Navigate 
-I will continue to update folders with new projects as I complete them! As for now, the folder "Ethical Hacking (Class) PPTs" contains powerpoints that I have made in my class for Ethical Hacking! We touch a wide variety of topics that span from actual hacking, to prevention. I document the activity on a powerpoint for everyone to see!
+I will continue to update folders with new projects as I complete them! As for now, the folder "Ethical Hacking (Course) PPTs" contains powerpoints that I have made in my class for Ethical Hacking! We touch a wide variety of topics that span from actual hacking, to prevention. I document the activity on a powerpoint for everyone to see!
 
 
