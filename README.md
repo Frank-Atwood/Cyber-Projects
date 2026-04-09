@@ -7,7 +7,7 @@ Each project includes objectives, tools used, methodology, screenshots, and key 
 
 ---
 
-I'm currently a Senior at Appalachian State University! I will be graduating in the Fall 2026, and I will be graduating with a BS in Cybersecurity. 
+I'm currently a Senior at Appalachian State University! I will be graduating May 8th, 2026, and I will be graduating with a BS in Cybersecurity. 
 Some of my courses that I've taken in my time at App State are; Managing Securities, Programming Software Solutions, Audit &
 Cybersecurity Analytics, Global IS Ethics & Privacy, Database Management & Network and IT Infrastructures. 
 
