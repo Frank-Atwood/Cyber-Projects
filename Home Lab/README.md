@@ -88,3 +88,13 @@ Command injection is when an attacker tricks a web app into running operating sy
 - **Zeek** — another network analysis tool to pair with Suricata
 
 ---
+
+## Screenshots
+ 
+| Screenshot | Description |
+|------------|-------------|
+| Homarr Dashboard | All services running with live CPU/RAM stats |
+| Proxmox UI | All containers and VMs with uptime and resource usage |
+| Wazuh Dashboard | MITRE ATT&CK detections and multi-agent alerts |
+| Suricata fast.log | Real-time attack detection output |
+| Network Map | Full architecture diagram |
