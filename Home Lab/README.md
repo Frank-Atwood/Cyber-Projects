@@ -90,11 +90,11 @@ Command injection is when an attacker tricks a web app into running operating sy
 ---
 
 ## Screenshots
- 
+
 | Screenshot | Description |
 |------------|-------------|
-| Homarr Dashboard | All services running with live CPU/RAM stats |
-| Proxmox UI | All containers and VMs with uptime and resource usage |
-| Wazuh Dashboard | MITRE ATT&CK detections and multi-agent alerts |
-| Suricata fast.log | Real-time attack detection output |
-| Network Map | Full architecture diagram |
+| ![Homarr Dashboard](Screenshots/Homarr%20Dashboard.png) | All services running with live CPU/RAM stats |
+| ![Proxmox UI](Screenshots/Proxmox%20UI.png) | All containers and VMs with uptime and resource usage |
+| ![Wazuh Dashboard](Screenshots/Wazuh%20Dashboard.png) | MITRE ATT&CK detections and multi-agent alerts |
+| ![Suricata Log](Screenshots/Suricata%20fast.log.png) | Real-time attack detection output |
+| ![Network Map](Screenshots/Network%20Map.png) | Full architecture diagram |
