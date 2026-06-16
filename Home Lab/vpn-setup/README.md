@@ -38,3 +38,34 @@ I configured the following settings:
 ## Step 3: Create VPN User
 I then created a new username and password for my user account to access the VPN.
 ![VPN Settings](screenshots/Screenshot_10.png)
+
+
+
+## Step 4: Export OpenVPN Configuration File
+Click Export next to "Export OpenVPN configuration file" to download the .ovpn file that we need.
+![VPN Settings](screenshots/Screenshot_2.png)
+
+
+
+## Step 5: Install OpenVPN Client
+I downloaded and installed OpenVPN on my main PC, and imported the .ovpn file
+- Right clicked the OpenVPN system tray icon ![VPN Settings](screenshots/Screenshot_6.png)
+- Click import file
+- Select the downloaded .ovpn file
+After those steps I successfully imported the file
+![VPN Settings](screenshots/Screenshot_3.png)
+
+
+
+## Step 6: Connect and Verify
+Once I successfully imported the .ovpn file I confirmed that I was able to access the homelab network from a different network.
+![VPN Settings](screenshots/Screenshot_9.png)
+
+This screenshot shows both my main Ethernet connection at the top. At the bottom the "Unknown adapter" is the VPN, and you can see in the description that its labeled "TAP-Windows Adapter V9". It's IPv4 address is in the corrent subnet that we established earlier 10.8.0.3. 
+
+
+
+
+
+
+
