@@ -23,6 +23,8 @@
 Navigate to VPN -> VPN Status in the Merlin Dashboard. All VPN services will show they're stopped by default.
 ![VPN Settings](screenshots/Screenshot_56.png)
 
+
+
 ## Step 2: Configure OpenVPN Server
 Click the VPN Server tab and select OpenVPN
 I configured the following settings:
