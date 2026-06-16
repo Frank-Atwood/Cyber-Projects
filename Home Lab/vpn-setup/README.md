@@ -70,5 +70,17 @@ From this screenshot I'm able to access my Homarr dashboard while connected to t
 
 
 
+## Why This Setup Is Secure
+**Network Segmentation**
+I've setup the homelab to be on a subnet that is completly seperated (192.168.2.X) from the primary home network (192.168.1.X). This means that if there were to be a vulnerability exploited within my lab enviroment, it cannot directly affect my home network. This mirrors the concept of network segmentation used in enterprise environments to contain lateral movement during a breach.
 
+**RSA 2048-bit Encryption**
+The OpenVPN server is configured with 2048-bit encryption for certificate generation. I made this change to 2048 from 1024 because 1024-bit encryption is considered deprecated by NIST, and is vulnerable to attacks with modern computing resources. 
 
+**Layers of Defense**
+My setup has multiple layers of security, following the defense in depth principle in frameworks like NIST SP 800-53.
+- Layer 1: The physical network isolation, my lab devices are on a seperate router and subnet than my home network
+- Layer 2: The firewall on the ASUS RT-AC88U with merlin enforces all firewall rules between networks
+- Layer 3: VPN Encryption, All cross-network communication is encrypted by OpenVPN
+- Layer 4: Authentication, Username + password alongside a certificate is required to access the VPN
+- Layer 5: Monitoring, Wazuh SIEM and Suricata IDS monitor all lab trafic
