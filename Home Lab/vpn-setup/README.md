@@ -26,10 +26,15 @@ Navigate to VPN -> VPN Status in the Merlin Dashboard. All VPN services will sho
 
 
 ## Step 2: Configure OpenVPN Server
-Click the VPN Server tab and select OpenVPN
+Click the VPN Server tab and select OpenVPN,
 I configured the following settings:
 - Enable OpenVPN server -> On
 - RSA Encryption -> 2048 Bit
 - Client will use VPN to access -> LAN only
+![VPN Settings](screenshots/Screenshot_1.png)
 
+
+
+## Step 3: Create VPN User
+I then created a new username and password for my user account to access the VPN.
 ![VPN Settings](screenshots/Screenshot_1.png)
