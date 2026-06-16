@@ -37,4 +37,4 @@ I configured the following settings:
 
 ## Step 3: Create VPN User
 I then created a new username and password for my user account to access the VPN.
-![VPN Settings](screenshots/Screenshot_1.png)
+![VPN Settings](screenshots/Screenshot_10.png)
