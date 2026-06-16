@@ -63,7 +63,7 @@ Once I successfully imported the .ovpn file I confirmed that I was able to acces
 
 This screenshot shows both my main Ethernet connection at the top. At the bottom the "Unknown adapter" is the VPN, and you can see in the description that its labeled "TAP-Windows Adapter V9". It's IPv4 address is in the corrent subnet that we established earlier 10.8.0.3. 
 
-![VPN Settings](screenshots/Screenshot_11.png)
+![VPN Settings](screenshots/Screenshot_.png)
 From this screenshot I'm able to access my Homarr dashboard while connected to the VPN on a seperate network.
 
 
