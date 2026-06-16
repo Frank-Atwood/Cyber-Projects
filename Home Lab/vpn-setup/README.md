@@ -53,6 +53,7 @@ I downloaded and installed OpenVPN on my main PC, and imported the .ovpn file
 - Click import file
 - Select the downloaded .ovpn file
 After those steps I successfully imported the file
+
 ![VPN Settings](screenshots/Screenshot_3.png)
 
 
