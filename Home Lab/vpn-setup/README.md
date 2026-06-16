@@ -1,6 +1,8 @@
 ## OpenVPN Server Setup  
 **Objective** Enable remote access to my homelab from my PC on a seperate network
 
+**Overview** This document outlines the steps that I took to configure OpenVPN on my ASUS RT-AC88U router running Asuswrt-Merlin firmware. The goal was to enable secure access to my homelab network while connected to a seperate ISP network.
+
 **Tools Used:**
 - ASUS RT-AC88U With Merlin Firmware
 - OpenVPN Server (Built into Merlin)
