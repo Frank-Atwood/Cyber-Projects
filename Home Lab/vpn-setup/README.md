@@ -11,7 +11,9 @@
 ## Network Architecture
 **Primary Network (Spectrum)**
 - Subnet: 192.168.1.X
+  
 **Lab Network (ASUS RT-AC88U)**
 - Subnet 192.168.2.X
+  
 **VPN Tunnel**
 - Subnet 10.8.0.X
