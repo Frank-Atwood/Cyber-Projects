@@ -21,4 +21,4 @@
 
 ## Step 1: Access the VPN Settings
 Navigate to VPN -> VPN Status in the Merlin Dashboard. All VPN services will show they're stopped by default.
-![VPN Settings](https://raw.githubusercontent.com/Frank-Atwood/Cyber-Projects/main/home-lab/vpn-setup/screenshots/Screenshot_56.png)
+![VPN Settings](screenshots/Screenshot_56.png)
