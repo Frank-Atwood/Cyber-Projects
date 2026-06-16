@@ -17,3 +17,8 @@
   
 **VPN Tunnel**
 - Subnet 10.8.0.X/24
+
+
+## Step 1: Access the VPN Settings
+Navigate to VPN -> VPN Status in the Merlin Dashboard. All VPN services will show they're stopped by default.
+![image](path/to/image.png)
