@@ -60,7 +60,7 @@ The exports bucket had Block Public Access disabled and a bucket policy granting
 
 ![S3 public access configuration](screenshots/s3-bad-setup-config.png)
 
-The object was downloadable from a private browser window with no authentication — confirming real exposure:
+The object was downloadable from a private browser window with no authentication, this confirmed real exposure:
 
 ![Public URL in private window](screenshots/private-browser-search.png)
 ![Fake patient file downloading with no login](screenshots/file-accessible-from-internet.png)
@@ -147,12 +147,10 @@ The default security group permitted inbound and outbound traffic.
 
 Not every finding warrants a fix. These were formally accepted with justification and tracked in the [POA&M](poam.md):
 
-- **R-06 — No customer-managed KMS key.** S3 encrypts by default (SSE-S3); the residual gap is key rotation/access control. CMK recommended in production.
-- **R-08 — Root uses virtual MFA, not hardware.** Acceptable for the lab; hardware key recommended in production.
+- **R-06 — No customer-managed KMS key.** S3 encrypts by default (SSE-S3); the residual gap is key rotation/access control.
+- **R-08 — Root uses virtual MFA, not hardware.** Accepted just because this was a lab environment, but wouldn't be skipped in production.
 - **R-10 — EBS snapshot public access not blocked.** No snapshots exist, so no exposure.
-- **Out of scope:** Amazon Inspector and GuardDuty "enable this service" findings, and SSM document sharing — services not in use. Deliberately not enabled.
-
-Knowing when *not* to spend effort — and documenting that decision — is itself a core GRC skill.
+- **Out of scope:** Amazon Inspector and GuardDuty "enable this service" findings, and SSM document sharing, these were services that were not used. Deliberately not enabled.
 
 ---
 
@@ -170,19 +168,16 @@ Before assessing, the account was brought to a baseline: a dedicated IAM admin u
 
 | | Before | After |
 | --- | --- | --- |
-| CSPM score | 30% | *pending re-evaluation* |
+| CSPM score | 30% | *pending re-evaluation* (will be updated once new scan is complete 12-24 hours) |
 | Critical findings (relevant) | public S3 bucket | remediated |
 | Public data exposure | yes | closed |
 | Audit logging | none | multi-Region CloudTrail |
 | Over-privileged IAM user | AdministratorAccess | ReadOnlyAccess |
 
-Remediation was verified at the resource level in the console. Security Hub CSPM re-evaluates controls on its own schedule — S3, security-group, and VPC default-SG controls cleared within the hour; CloudTrail followed on the next pass. A raw CSPM score treats *accepted* risks as failures, so the gap between the final score and 100% is accounted for in the risk register and POA&M rather than being an open exposure.
-
 ---
 
 ## What I'd do differently in production
 
-- Customer-managed KMS keys for sensitive data, with rotation
 - Hardware MFA on root; IAM Identity Center instead of long-lived IAM users
-- Infrastructure-as-code (Terraform/CloudFormation) so the baseline is enforced, not clicked
+- Infrastructure-as-code (Terraform/CloudFormation) so the baseline is enforced
 - Continuous monitoring with GuardDuty and automated remediation
