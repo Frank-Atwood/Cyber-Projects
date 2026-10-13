@@ -2,7 +2,7 @@
 
 A hands-on governance, risk, and compliance (GRC) assessment of a deliberately vulnerable AWS environment, performed end-to-end in the AWS console: build the weak environment, assess it against **NIST SP 800-53** and the **AWS Foundational Security Best Practices / CIS** benchmarks with **AWS Security Hub CSPM**, triage the findings, remediate, and document the result as a risk register, executive summary, and POA&M.
 
-**Scenario:** I played a GRC analyst engaged by a fictional clinic, *Piedmont Family Clinic*, to assess its small AWS footprint (storage, a server, and user accounts) and report on its security posture. All data is synthetic — the "patient" file contains only fake records.
+**Scenario:** I played a GRC analyst engaged by a fictional clinic, *Piedmont Family Clinic*, to assess its small AWS footprint (storage, a server, and user accounts) and report on its security posture. All data is synthetic, the "patient" file contains only fake records.
 
 > **Note on redaction:** every screenshot has the 12-digit AWS account ID, sign-in URLs, access-key IDs, and personal details removed. This is a public repository and nothing sensitive is exposed.
 
