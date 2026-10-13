@@ -5,6 +5,7 @@
 Hands-on security labs I build and document on my own time: cloud security and GRC, SIEM and IDS engineering, and offensive/defensive practice. Every project includes objectives, tools, methodology, screenshots, and key takeaways.
 
 🔎 **Open to:** SOC Analyst · GRC / Risk Analyst · Digital Forensics roles in the Charlotte area
+
 📫 **Connect:** [LinkedIn](https://www.linkedin.com/in/frankatwood/) · [Email](mailto:treyatwoodpro@gmail.com)
 
 ---
