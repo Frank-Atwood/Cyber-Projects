@@ -4,8 +4,6 @@ A hands-on governance, risk, and compliance (GRC) assessment of a deliberately v
 
 **Scenario:** I played a GRC analyst engaged by a fictional clinic, *Piedmont Family Clinic*, to assess its small AWS footprint (storage, a server, and user accounts) and report on its security posture. All data is synthetic, the "patient" file contains only fake records.
 
-> **Note on redaction:** every screenshot has the 12-digit AWS account ID, sign-in URLs, access-key IDs, and personal details removed. This is a public repository and nothing sensitive is exposed.
-
 ---
 
 ## Contents
