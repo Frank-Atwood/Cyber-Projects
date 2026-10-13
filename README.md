@@ -72,7 +72,7 @@ Relevant coursework: Audit & Cybersecurity Analytics, Managing Securities, Netwo
 
 | Certification | Status |
 |---|---|
-| CompTIA Security+ (SY0-701) | ✅ Earned |
-| AWS Certified Cloud Practitioner | ✅ Earned (Sept 2026) |
-| Google Cybersecurity Professional Certificate | ✅ Earned ([Credly](YOUR-CREDLY-LINK)) |
+| CompTIA Security+ (SY0-701) | ✅ Earned ([Credly](https://www.credly.com/badges/275b9b00-a71e-464c-9789-97d2472efdbd/public_url))|
+| AWS Certified Cloud Practitioner | ✅ Earned (Sept 2026) ([Credly](https://www.credly.com/badges/cdc72c42-7748-4ded-8c4a-5b81b9ea65e8/public_url))|
+| Google Cybersecurity Professional Certificate | ✅ Earned ([Credly](https://www.credly.com/badges/361ec408-3042-47ac-ad08-a38dcceceff0/public_url)) |
 | Splunk Core Certified User | 🎯 Next up |
