@@ -1,7 +1,9 @@
 # Executive Summary — AWS Cloud Security Risk Assessment
 
 **Prepared for:** Piedmont Family Clinic (clinic director)
-**Prepared by:** Frank "Trey" Atwood
+
+**Prepared by:** Frank Atwood
+
 **Date:** October 13, 2026
 
 ## Overview
