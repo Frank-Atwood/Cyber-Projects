@@ -1,7 +1,7 @@
 # Plan of Action & Milestones (POA&M)
 
 **Assessment:** AWS Cloud Security Risk Assessment — Piedmont Family Clinic
-**Prepared by:** Frank "Trey" Atwood
+**Prepared by:** Frank Atwood
 **Date:** October 13, 2026
 
 A POA&M records findings that were **accepted** rather than remediated during the assessment, along with the justification for accepting the risk, any compensating control already in place, and a scheduled action to close the gap in a production environment.
