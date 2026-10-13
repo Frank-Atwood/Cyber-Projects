@@ -1,6 +1,6 @@
 # Cyber-Projects
 
-**Frank "Trey" Atwood** · Cybersecurity graduate, Appalachian State University (BS, May 2026) · Charlotte, NC
+**Frank Atwood** · Cybersecurity graduate, Appalachian State University (BS, May 2026) · Charlotte, NC
 
 Hands-on security labs I build and document on my own time: cloud security and GRC, SIEM and IDS engineering, and offensive/defensive practice. Every project includes objectives, tools, methodology, screenshots, and key takeaways.
 
@@ -12,7 +12,7 @@ Hands-on security labs I build and document on my own time: cloud security and G
 
 ## ⭐ Featured Project
 
-### [AWS Cloud Security Risk Assessment & GRC Lab](https://github.com/Frank-Atwood/aws-grc-lab)
+### [AWS Cloud Security Risk Assessment & GRC Lab](https://github.com/Frank-Atwood/Cyber-Projects/tree/main/aws-grc-lab)
 Built a deliberately misconfigured AWS environment for a fictional healthcare practice, then ran it through a full risk-management lifecycle.
 
 - **Assessed** with AWS Security Hub CSPM against NIST 800-53, CIS, and AWS FSBP; baseline compliance score of **30%**
