@@ -8,15 +8,15 @@
 
 ## Overview
 
-We reviewed the clinic's small cloud environment on Amazon Web Services (AWS) for security weaknesses. The review found several serious problems — including patient export files that anyone on the internet could download without a password. We corrected the most dangerous issues the same day and documented the remainder with a plan to address them.
+We reviewed the clinic's small cloud environment on Amazon Web Services (AWS) for security weaknesses. The review found several serious problems; including patient export files that anyone on the internet could download without a password. We corrected the most dangerous issues the same day and documented the remainder with a plan to address them.
 
 ## What we assessed
 
-The clinic's cloud footprint — online file storage, a server, and the user accounts that administer them — was measured against two widely used security standards (the AWS Foundational Security Best Practices and the CIS benchmarks) using AWS's built-in assessment tool, Security Hub. The findings are also mapped to the NIST SP 800-53 control framework used across healthcare and government.
+The clinic's cloud footprint. Online file storage, a server, and the user accounts that administer them, were measured against two widely used security standards (the AWS Foundational Security Best Practices and the CIS benchmarks) using AWS's built-in assessment tool, Security Hub. The findings are also mapped to the NIST SP 800-53 control framework used across healthcare and government.
 
 ## Starting posture: 30%
 
-The automated assessment passed 18 of 60 security checks, a score of 30%, with 42 failing. Not every failure was equally important: after review, about ten findings genuinely applied to the clinic's environment. The rest were checks for optional services the clinic does not use, and were set aside as out of scope.
+The automated assessment passed 18 of 60 security checks, a score of 30%, with 42 failing. Not every failure was equally important: after review, about ten findings critically applied to the clinic's environment. The rest were checks for optional services the clinic does not use, and were set aside as out of scope.
 
 ## The three most serious risks
 
@@ -37,11 +37,11 @@ In total, seven of the ten relevant findings were fully remediated.
 
 ## What remains, and why
 
-Three lower-priority findings were formally accepted rather than fixed, each with a documented reason. For example, the top-level "root" account is protected by an app-based two-step login rather than a physical security key — acceptable for this environment, but worth strengthening in a live clinic. Every accepted item is tracked, with an owner and a target date, in the accompanying Plan of Action & Milestones (POA&M).
+Three lower-priority findings were formally accepted rather than fixed, each with a documented reason. For example, the top-level "root" account is protected by an app-based two-step login rather than a physical security key. This is acceptable for this environment (since this is a lab), but worth strengthening in a live clinic. Every accepted item is tracked, with an owner and a target date, in the accompanying Plan of Action & Milestones (POA&M).
 
 ## Bottom line and recommendations
 
-The environment moved from an exposed state, with sensitive data publicly readable, to one where the critical exposures are closed and the remaining items are documented and scheduled. Post-remediation security score: ___% (to be recorded once the assessment tool completes its re-evaluation).
+The environment moved from an exposed state, with sensitive data publicly readable, to one where the critical exposures are closed and the remaining items are documented and scheduled. Post-remediation security score: ___% (score will be updated once the scan is complete, takes 12-24 hours).
 
 Recommended next steps:
 
