@@ -168,7 +168,7 @@ Before assessing, the account was brought to a baseline: a dedicated IAM admin u
 
 | | Before | After |
 | --- | --- | --- |
-| CSPM score | 30% | *pending re-evaluation* (will be updated once new scan is complete 12-24 hours) |
+| CSPM score | 30% | 87% |
 | Critical findings (relevant) | public S3 bucket | remediated |
 | Public data exposure | yes | closed |
 | Audit logging | none | multi-Region CloudTrail |
