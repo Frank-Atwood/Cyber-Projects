@@ -166,6 +166,8 @@ Before assessing, the account was brought to a baseline: a dedicated IAM admin u
 
 ## Results
 
+![AWS Security Hub CSPM posture score — 87% control pass rate (341 passed, 53 failed)](screenshots/security-hub-cspm-score.png)
+
 | | Before | After |
 | --- | --- | --- |
 | CSPM score | 30% | 87% |
